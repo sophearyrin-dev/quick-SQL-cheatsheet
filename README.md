@@ -18,11 +18,14 @@ Pull requests are welcome. Enjoy!
 # 1. Finding Data Queries
 
 ### **SELECT**: used to select data from a database
-* `SELECT` * `FROM` table_name;
+```sql
+SELECT * FROM  table_name;
+```
 
 ### **DISTINCT**: filters away duplicate values and returns rows of specified column
-* `SELECT DISTINCT` column_name;
-
+```sql
+SELECT DISTINCT column_name;
+```
 ### **WHERE**: used to filter records/rows
 * `SELECT` column1, column2 `FROM` table_name `WHERE` condition;
 * `SELECT` * `FROM` table_name `WHERE` condition1 `AND` condition2;
